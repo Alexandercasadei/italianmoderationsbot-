@@ -1,0 +1,9 @@
+@keyframes gif {
+	from {
+		margin-top: 150px;
+	}
+
+	to {
+		margin-top: 100px;
+	}
+}
