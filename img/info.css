@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@font-face {
+	font-family: MyFont;
+	src: url('fonts/Uni.otf');
+}
+
+@font-face {
+	font-family: Arkit;
+	src: url('fonts/Arkit-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: Marcher;
+	src: url('fonts/Marcher-Bold.ttf');
+}
+
+@font-face {
+	font-family: Radiate;
+	src: url('fonts/Radiate-Sans-Bold.ttf');
+}
+
+@font-face {
+	font-family: Radiate-Bold;
+	src: url('fonts/Radiate-Sans-Extra-Bold-Italic.ttf');
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/sfondo-info2.PNG) no-repeat;
+  background-size: cover;
+}
+
+/*----------------*/
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: hsl(210, 45%, 8%);
+	position: fixed;
+	z-index: 1;
+}
+
+.header img:hover {
+	transform: rotate(3600deg);
+	-webkit-transform: rotate(3600deg);
+}
+
+.header button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.discord {
+	padding: 10px 40px;
+	background-color: hsl(240, 100%, 46%);
+	float: right;
+	font-family: MyFont;
+	border-radius: 25px;
+	position: relative;
+	top: 20px;
+	border: 0px;
+	margin-right: 50px;
+	color: white;
+	transition-duration: 0.3s;
+}
+
+.text {
+	float: left;
+}
+
+.text:hover {
+	color: green;
+}
+/*------------------*/
+
+
+.color-txt{
+  color: black;
+  text-decoration: none;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 221, 255, 0.413);
+  padding: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: black;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+
